@@ -1,6 +1,7 @@
 #exclusive operation
 
 f=open('FH_read.txt','x')
+print(f)
 print('File Name',f.name)
 print('File Mode',f.mode)
 print('Is Readable',f.readable())
