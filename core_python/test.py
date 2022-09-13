@@ -1,8 +1,9 @@
-import sys
-#PYTHONPATH='C:\\Users\\Rahul Natarajan\\Desktop\\Python_testing\\'
-sys.path.append('C:\\Users\\Rahul Natarajan\\Desktop\\Python_testing\\')
-print(sys.path)
+import platform
 
-import testingPythonPath as p
-t=p.test3(10,20)
-print(t.mul())
+print(platform.machine())
+print(platform.processor())
+print(platform.system())
+print(platform.version())
+print(platform.python_version())
+print(platform.python_implementation())
+print(platform.python_version_tuple())
